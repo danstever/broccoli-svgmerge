@@ -1,13 +1,13 @@
 {
-  "name": "broccoli-svgstore",
+  "name": "broccoli-svgmerge",
   "version": "0.1.0",
-  "description": "Combine all your SVGs into one using <symbol>",
+  "description": "Combine all your SVGs into one",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jmarquis/broccoli-svgstore.git"
+    "url": "https://github.com/danstever/broccoli-svgmerge.git"
   },
-  "author": "Jeremy Marquis <jeremy@jeremymarquis.com>",
+  "author": "Dan Stever <danstever@gmail.com>",
   "license": "MIT",
   "keywords": [
     "broccoli-plugin",
@@ -15,13 +15,13 @@
     "svgstore"
   ],
   "bugs": {
-    "url": "https://github.com/jmarquis/broccoli-svgstore/issues"
+    "url": "https://github.com/danstever/broccoli-svgmerge/issues"
   },
-  "homepage": "https://github.com/jmarquis/broccoli-svgstore",
+  "homepage": "https://github.com/danstever/broccoli-svgmerge",
   "dependencies": {
-    "broccoli-kitchen-sink-helpers": "^0.2.5",
-    "broccoli-writer": "^0.1.1",
-    "cheerio": "^0.18.0",
-    "mkdirp": "^0.5.0"
+    "broccoli-kitchen-sink-helpers": "0.2.5",
+    "broccoli-writer": "0.1.1",
+    "cheerio": "0.18.0",
+    "mkdirp": ^0.5.0"
   }
 }
